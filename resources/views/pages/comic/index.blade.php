@@ -6,7 +6,7 @@
 @section('main-content')
     <h1>index page comic</h1>
     <div>
-      <a href="{{route(comics.create)}}"></a>
+      <a href="{{route('comics.create')}}" class="btn btn-success">Create Comic</a>
     </div>
     <div>
         <table class="table">

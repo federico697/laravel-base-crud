@@ -20,5 +20,18 @@
             <label class="form-label" for="">Price</label>
             <input class="form-control" type="number" name="price" step="0.01">
         </div>
+        <div class="mb-3">
+            <label class="form-label" for="">Series</label>
+            <input class="form-control" type="text" name="series">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="">Sales Date</label>
+            <input class="form-control" type="date" name="sale_date">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="">Type</label>
+            <input class="form-control" type="text" name="type">
+        </div>
+        <button class="btn btn-primary" type="submit">Crea Dato</button>
     </form>
 @endsection
