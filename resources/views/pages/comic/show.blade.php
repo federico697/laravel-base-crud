@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('title-page', 'welcome')
 @section('main-content')
-    <h1>show page comic</h1>
+    <h1>{{$comic->title}}</h1>
+    <p>{!!$comic->description!!}</p>
 @endsection
